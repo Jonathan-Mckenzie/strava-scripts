@@ -2,7 +2,7 @@
 Misc. scripts for all things Strava
 
 ## Give kudos to every event in your feed
-1. Navigate to the main feed page of Strava in a web browser:
+1. Navigate to the main feed page of Strava in a web browser:   
 `
   https://www.strava.com/dashboard/following/100
 `
