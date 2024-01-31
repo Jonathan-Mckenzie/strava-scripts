@@ -11,7 +11,12 @@ Misc. scripts for all things Strava
 4. Paste the script below into the console and press enter:
 
 ```javascript
-  document.querySelectorAll('button.js-add-kudo').forEach(function(node) {node.click()});
+setInterval(() => {
+    document.querySelectorAll('button[title="Give kudos"]').forEach(node => {
+        node.click();
+    });
+    window.scrollBy(0,1024); 
+},2000);
 ```
 
 5. Every activity in view should be given Kudos.
